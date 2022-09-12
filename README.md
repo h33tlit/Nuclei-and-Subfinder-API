@@ -10,6 +10,12 @@ Web API for nuclei and subfinder will help you automate your entire security tes
 
 To get subdomain results: `http://127.0.0.1/api/scanner1/facebook.com`
 
+![image](https://user-images.githubusercontent.com/97327489/189568953-12b5af33-19ce-489d-817e-ee79191e54bb.png)
+
+
 To get nuclei results (WITHOUT AUTOSCAN): `http://127.0.0.1/api/v2/scanner2?target_name=http://test.com&autoscan=false&tags=misconfig,cve,panel`
+
+![image](https://user-images.githubusercontent.com/97327489/189568842-52aee7f9-dd85-421e-9fca-5f2a384d913e.png)
+
 
 To get nuclei results (WITH AUTOSCAN): `http://127.0.0.1/api/v2/scanner2?target_name=http://test.com&autoscan=true`
