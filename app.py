@@ -17,7 +17,7 @@ subprocess.run(["chmod -R +x "+str(os.getcwd())+"/go/bin/go"], shell=True)
 subprocess.run([str(os.getcwd())+"/go/bin/go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest"], shell=True)
 subprocess.run([str(os.getcwd())+"/go/bin/go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest"], shell=True)
 
-## Only uncomment for local environment
+## Only uncomment for local environment (If you have go installed already then use this)
 # subprocess.run(["go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest"], shell=True)
 # subprocess.run(["go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest"], shell=True)
 
