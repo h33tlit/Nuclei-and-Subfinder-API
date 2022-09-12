@@ -13,11 +13,11 @@ os.environ["GOPATH"] = str(os.getcwd())+"/go/bin/tools"
 os.environ["GOBIN"] = str(os.getcwd())+"/go/bin"
 subprocess.run(["chmod -R +x "+str(os.getcwd())+"/go/bin/go"], shell=True)
 
-## Only uncomment for render.com
+## Local environment (If you don't have go installed or showing errors then try to use this)
 subprocess.run([str(os.getcwd())+"/go/bin/go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest"], shell=True)
 subprocess.run([str(os.getcwd())+"/go/bin/go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest"], shell=True)
 
-## Only uncomment for local environment (If you have go installed already then use this)
+## Local environment (If you have go installed already then use this)
 # subprocess.run(["go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest"], shell=True)
 # subprocess.run(["go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest"], shell=True)
 
