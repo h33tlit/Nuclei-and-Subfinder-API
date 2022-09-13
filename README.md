@@ -19,3 +19,9 @@ To get nuclei results (WITHOUT AUTOSCAN): `http://127.0.0.1/api/scanner2/nuclei?
 
 
 To get nuclei results (WITH AUTOSCAN): `http://127.0.0.1/api/scanner2/nuclei?target_name=https://jubaeralnazi.com&autoscan=true`
+
+# Issues
+
+Uncomment the local environment portion if you already have go installed
+
+![image](https://user-images.githubusercontent.com/97327489/189793211-2fcd3a7f-e012-4b62-9056-1c6ffe578f09.png)
