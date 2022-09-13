@@ -4,7 +4,7 @@ Web API for nuclei and subfinder will help you automate your entire security tes
 # How to install?
 
 1. Install the requirements with `pip install -r requirements.txt`
-2. Launch it with uvicorn `uvicorn app:app --host 0.0.0.0 --port 10000 --timeout-keep-alive 1000 --workers 5` (change the host if you require)
+2. Launch it with uvicorn `uvicorn app:app --host 0.0.0.0 --port 10000 --timeout-keep-alive 1000 --workers 5` (change this as you require)
 
 # Usage
 
