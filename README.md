@@ -22,6 +22,8 @@ To get nuclei results (WITH AUTOSCAN): `http://127.0.0.1/api/scanner2/nuclei?tar
 
 # Issues
 
-Uncomment the local environment portion if you already have go installed
+Uncomment the local environment portion if you already have go installed and comment out the previous one
 
 ![image](https://user-images.githubusercontent.com/97327489/189793211-2fcd3a7f-e012-4b62-9056-1c6ffe578f09.png)
+
+If you face any other issues please create a new issue [here](https://github.com/h33tlit/Nuclei-and-Subfinder-API/issues)
