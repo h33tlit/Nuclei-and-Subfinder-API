@@ -55,6 +55,7 @@ async def nuclei_scanner(target_name: str, autoscan: bool, tags: Optional[str] =
             out = subprocess.Popen(str(os.getcwd()) + "/go/bin/nuclei -u " + str(target_name) + " -as -json", shell=True,
                                    stdout=subprocess.PIPE)
         else:
+            # Change the parameters as you require
             out = subprocess.Popen(str(os.getcwd()) + "/go/bin/nuclei -u " + str(target_name) + " -json -tags " + str(tags),
                                    shell=True, stdout=subprocess.PIPE)
 
